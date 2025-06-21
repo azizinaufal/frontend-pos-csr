@@ -68,7 +68,7 @@ const filterProfits = async (e) => {
             <input v-model="endDate" type="date"  class="bg-white shadow-sm border border-b-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-b-blue-500 block w-full p-2.5">
           </div>
           <div class="mt-6 gap-4 w-1/2 flex flex-col  items-center md:items-center">
-            <button class=" text-white w-full justify-center p-4 items-center bg-blue-600 rounded-md h-8 hover:bg-sky-700 flex">
+            <button type="submit" class=" text-white w-full justify-center p-4 items-center bg-blue-600 rounded-md h-8 hover:bg-sky-700 flex">
               <Funnel></Funnel>
               Filter
             </button>
